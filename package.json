@@ -42,7 +42,7 @@
         "@playwright/test": "^1.33.0",
         "@prospective.co/procss": "^0.1.12",
         "cpy-cli": "^4.1.0",
-        "esbuild": "^0.14.43",
+        "esbuild": "^0.14.54",
         "esbuild-plugin-less": "^1.1.7",
         "http-server": "^14.1.1",
         "jest": "^25.1.0",
