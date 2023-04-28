@@ -9,7 +9,7 @@ export class PerspectiveViewerExamplePluginElement extends HTMLElement {
         if (!this._container) {
             this._container = document.createElement("div");
         }
-        this.parentElement.appendChild(this._container);
+        this.appendChild(this._container);
     }
 
     disconnectedCallback() {}
