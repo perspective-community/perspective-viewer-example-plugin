@@ -1,3 +1,5 @@
+import * as perspective from "../node_modules/@finos/perspective/dist/cdn/perspective.js";
+
 async function load() {
     let resp = await fetch("superstore.csv");
     let csv = await resp.text();
