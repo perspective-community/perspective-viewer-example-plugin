@@ -41,6 +41,9 @@ jobs:
     - name: Lint
       run: yarn lint
 
+    - name: Install playwright
+      run: npx playwright install
+
     - name: Test
       run: yarn test
       env:

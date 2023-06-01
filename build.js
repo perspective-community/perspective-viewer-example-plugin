@@ -1,7 +1,6 @@
 const {
     NodeModulesExternal,
 } = require("@finos/perspective-esbuild-plugin/external");
-const { UMDLoader } = require("@finos/perspective-esbuild-plugin/umd");
 const { build } = require("@finos/perspective-esbuild-plugin/build");
 const { BuildCss } = require("@prospective.co/procss/target/cjs/procss.js");
 const fs = require("fs");
@@ -20,20 +19,6 @@ const BUILD = [
             ".html": "text",
         },
         outfile: "dist/esm/perspective-viewer-example.js",
-    },
-    {
-        define: {
-            global: "window",
-        },
-        entryPoints: ["src/js/plugin.js"],
-        globalName: "perspective_example",
-        plugins: [UMDLoader()],
-        format: "cjs",
-        loader: {
-            ".css": "text",
-            ".html": "text",
-        },
-        outfile: "dist/umd/perspective-viewer-example.js",
     },
     {
         define: {
