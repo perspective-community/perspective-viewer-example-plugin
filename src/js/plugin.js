@@ -52,7 +52,7 @@ export class PerspectiveViewerExamplePluginElement extends HTMLElement {
 
 customElements.define(
     "perspective-viewer-example",
-    PerspectiveViewerExamplePluginElement
+    PerspectiveViewerExamplePluginElement,
 );
 
 /**

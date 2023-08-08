@@ -38,7 +38,7 @@ const BUILD = [
 function add(builder, path) {
     builder.add(
         path,
-        fs.readFileSync(path_mod.join("./src/less", path)).toString()
+        fs.readFileSync(path_mod.join("./src/less", path)).toString(),
     );
 }
 
@@ -48,7 +48,7 @@ async function compile_css() {
     add(builder1, "./index.less");
     fs.writeFileSync(
         "dist/css/perspective-viewer-example.css",
-        builder1.compile().get("index.css")
+        builder1.compile().get("index.css"),
     );
 }
 
