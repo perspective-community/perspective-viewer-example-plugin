@@ -3,7 +3,7 @@ import { test, expect } from "@playwright/test";
 async function getExampleContents(page) {
     return await page.evaluate(async () => {
         const viewer = document.querySelector(
-            "perspective-viewer perspective-viewer-example"
+            "perspective-viewer perspective-viewer-example",
         );
         return viewer.innerHTML || "MISSING";
     });
