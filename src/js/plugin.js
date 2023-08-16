@@ -7,9 +7,16 @@ export class PerspectiveViewerExamplePluginElement extends HTMLElement {
 
     connectedCallback() {
         if (!this._container) {
+            this._shadow = this.attachShadow({ mode: "open" });
+
             this._container = document.createElement("div");
+            this._container.classList.add("summary-container");
+
+            this._style = document.createElement("style");
+            this._style.textContent = STYLE;
+            this._shadow.appendChild(this._style);
+            this._shadow.appendChild(this._container);
         }
-        this.appendChild(this._container);
     }
 
     disconnectedCallback() {}
@@ -55,17 +62,6 @@ customElements.define(
     PerspectiveViewerExamplePluginElement,
 );
 
-/**
- * Appends the default table CSS to `<head>`, should be run once on module
- * import.
- *
- */
-function _register_global_styles() {
-    const style = document.createElement("style");
-    style.textContent = STYLE;
-    document.head.insertBefore(style, document.head.firstChild);
-}
-
 /******************************************************************************
  *
  * Main
@@ -79,4 +75,3 @@ function register_element() {
 }
 
 customElements.whenDefined("perspective-viewer").then(register_element);
-_register_global_styles();
