@@ -23,12 +23,13 @@
     "types": "index.d.ts",
     "scripts": {
         "build": "node build.js",
+        "clean": "rimraf dist playwright-report",
         "lint": "prettier --check \"examples/*.js\" \"examples/*.html\" \"src/js/*.js\" \"src/less/*.less\" \"tests/*.js\" \"*.js\" \"*.json\" \"index.d.ts\" \"*.md\"",
         "fix": "prettier --write  \"examples/*.js\" \"examples/*.html\" \"src/js/*.js\" \"src/less/*.less\" \"tests/*.js\" \"*.js\" \"*.json\" \"index.d.ts\" \"*.md\"",
-        "test": "playwright test",
+        "prepack": "npm run build",
         "start:tests": "http-server -p 3000 ",
         "start:examples": "http-server -p 3000 -o examples/",
-        "clean": "rimraf dist playwright-report"
+        "test": "playwright test"
     },
     "publishConfig": {
         "access": "public"
