@@ -128,10 +128,10 @@
     "@finos/perspective" "^2.3.2"
     fflate "^0.7.4"
 
-"@finos/perspective@^2.2.0", "@finos/perspective@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-2.3.2.tgz#bd9c81e3dd3a32c8f118fd37d327befb78115e8f"
-  integrity sha512-L8F9VeamUB1I5moifJQ/j8v6UqXs37eV+AuOwZDEebveX7+1fvF/pZA9D+e2+NgUhnlGXmW6GcPzgqXyRUnvcQ==
+"@finos/perspective@^2.3.2", "@finos/perspective@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-2.5.1.tgz#ebb6200434a6aeb76c9db2c97fc2b213634f497b"
+  integrity sha512-L2pdHIq7xmdL6mSP92yolRhHWYyLsb4KUUxD/iAilkcb4M4jBBpzSyOIO+fbr/RfjaTSUPxAoG3uZShLFT9ymA==
   dependencies:
     fflate "^0.7.4"
     ws "^6.1.2"
