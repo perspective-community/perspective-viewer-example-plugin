@@ -45,6 +45,6 @@
         "esbuild": "^0.19.2",
         "esbuild-plugin-less": "^1.2.4",
         "http-server": "^14.1.1",
-        "prettier": "^3.0.1"
+        "prettier": "^3.0.3"
     }
 }
