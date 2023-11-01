@@ -128,12 +128,13 @@
     "@finos/perspective" "^2.5.1"
     fflate "^0.7.4"
 
-"@finos/perspective@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-2.5.1.tgz#ebb6200434a6aeb76c9db2c97fc2b213634f497b"
-  integrity sha512-L2pdHIq7xmdL6mSP92yolRhHWYyLsb4KUUxD/iAilkcb4M4jBBpzSyOIO+fbr/RfjaTSUPxAoG3uZShLFT9ymA==
+"@finos/perspective@^2.5.1", "@finos/perspective@^2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-2.6.1.tgz#03dc1303755aed750b5a2d1d7c5a25431d581447"
+  integrity sha512-YEVW+tCIZO74QxzQufWi9CvEPWDw7dqoLIqQ6wJpUMn4DUATpsC9WC026Z2xN+Draegu50tbQOhHCjFPQmcuvg==
   dependencies:
     fflate "^0.7.4"
+    stoppable "1.1.0"
     ws "^6.1.2"
 
 "@playwright/test@^1.38.1":
@@ -596,6 +597,11 @@ source-map@~0.6.0:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
+
+stoppable@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/stoppable/-/stoppable-1.1.0.tgz#32da568e83ea488b08e4d7ea2c3bcc9d75015d5b"
+  integrity sha512-KXDYZ9dszj6bzvnEMRYvxgeTHU74QBFL54XKtP3nyMuJ81CFYtABZ3bAzL2EdFUaEwJOBOgENyFj3R7oTzDyyw==
 
 supports-color@^7.1.0:
   version "7.2.0"
