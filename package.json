@@ -41,7 +41,7 @@
     "devDependencies": {
         "@finos/perspective-esbuild-plugin": "^2.6.1",
         "@playwright/test": "^1.39.0",
-        "@prospective.co/procss": "^0.1.13",
+        "@prospective.co/procss": "^0.1.15",
         "esbuild": "^0.19.5",
         "esbuild-plugin-less": "^1.3.1",
         "http-server": "^14.1.1",
