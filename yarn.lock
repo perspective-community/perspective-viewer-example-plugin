@@ -117,10 +117,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.20.2.tgz#9c907b21e30a52db959ba4f80bb01a0cc403d5cc"
   integrity sha512-N49X4lJX27+l9jbLKSqZ6bKNjzQvHaT8IIFUy+YIqmXQdjYCToGWwOItDrfby14c78aDd5NHQl29xingXfCdLQ==
 
-"@finos/perspective-esbuild-plugin@^2.10.0":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@finos/perspective-esbuild-plugin/-/perspective-esbuild-plugin-2.10.0.tgz#b5d960bb0cf27bf7ea70dd560991b4407aab7206"
-  integrity sha512-A05pGSDbxtRxiXr2XBHq+TyC0I4oK6yL4cqK13rn3tK0h4cax1Hv4uyxdEU0amfXaxc1sK1fvnSKDCKSxHqa4Q==
+"@finos/perspective-esbuild-plugin@^2.10.1":
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-esbuild-plugin/-/perspective-esbuild-plugin-2.10.1.tgz#8727f134acf669fd61a02806007eb220b67552ac"
+  integrity sha512-DRHbu5D5tKpQpLfgepd8OCgaajvWnmZZQR7Ewrfw1wtrEO1bndFavYYN3KuIUp2szZ979htFpB/+ryR/BU5KwQ==
   dependencies:
     node-fetch "^2.6.7"
     tar "^6.1.11"
