@@ -242,10 +242,10 @@ errno@^0.1.1:
   dependencies:
     prr "~1.0.1"
 
-esbuild-plugin-less@^1.3.3:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/esbuild-plugin-less/-/esbuild-plugin-less-1.3.3.tgz#cf886d8822b2b61f56f5f5ac6e17a29712a63510"
-  integrity sha512-dYXuCtLh0Jm0Uci45w4Hlel4ajkawIQva1MxrLyaarcrEtSxUZWoaZuiLzr/dDzT/p+wRKobbop5Tp8yALSfGw==
+esbuild-plugin-less@^1.3.4:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/esbuild-plugin-less/-/esbuild-plugin-less-1.3.4.tgz#ff80fb1247a456b27fad2bbb94621e15954d9890"
+  integrity sha512-9Lo8mN3FcbuPUocRNAWdansAPgpgjMCsTI0MWbMl90DFN/EYGGy9afWcCbyVsAo0xLqHvwAmQjHfC0zEblzhSQ==
   dependencies:
     "@types/less" "^3.0.6"
     less "^4.2.0"
