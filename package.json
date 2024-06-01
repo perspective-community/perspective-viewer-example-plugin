@@ -36,7 +36,7 @@
     },
     "dependencies": {
         "@finos/perspective": "^2.10.1",
-        "@finos/perspective-viewer": "^2.10.0"
+        "@finos/perspective-viewer": "^2.10.1"
     },
     "devDependencies": {
         "@finos/perspective-esbuild-plugin": "^2.10.0",
